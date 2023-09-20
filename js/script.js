@@ -35,7 +35,7 @@ function lista(){
         let filas = "";
         
         for (let dato of datos){
-            filas += `<tr align='center'>
+            filas += `<tr>
             <td>${dato.nombre}</td>
             <td>${dato.apellido}</td>
             <td>${dato.grupo}</td>
